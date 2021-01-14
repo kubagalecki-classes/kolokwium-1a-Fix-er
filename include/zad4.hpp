@@ -3,19 +3,22 @@
 #include <vector>
 
 // tutaj funkcja obliczMake..
-void obliczMake(std::vector<Tagliatelle> v){
+double obliczMake(std::vector<Tagliatelle> v){
+  int c=50;
+  double d=32;
 double M=0;
 for_each(v.end(),v.begin(),[&](Tagliatelle it){
   int i=1;
- double N = it->ileMaki(i);
+ double N = it.ileMaki(i);
  M += N;
   i++;
   return M;
 });
+
 if (M>100){
-return int c=50;
+throw c;
 } else if (M>50 || M==100){
-  return double c=32;
+  throw d;
 }else{
   return M;
 }
