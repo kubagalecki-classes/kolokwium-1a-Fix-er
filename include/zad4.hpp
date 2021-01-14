@@ -4,7 +4,7 @@
 
 // tutaj funkcja obliczMake..
 void obliczMake(std::vector<Tagliatelle> v){
-double M;
+double M=0;
 for_each(v.end()v.begin(),[](Tagliatelle it){
   int i=1;
   M += it->ileMaki(i);
