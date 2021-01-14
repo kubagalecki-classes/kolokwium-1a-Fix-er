@@ -4,8 +4,8 @@
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 class Makaron{
-  
-}
+
+};
 // Zad1
 // tutaj definicja klasy Tagliatelle
 class Tagliatelle{
