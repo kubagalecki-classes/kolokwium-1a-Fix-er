@@ -7,7 +7,7 @@ void obliczMake(std::vector<Tagliatelle> v){
 double M=0;
 for_each(v.end(),v.begin(),[&](Tagliatelle it){
   int i=1;
- double N += it->ileMaki(i);
+ double N = it->ileMaki(i);
  M += N;
   i++;
   return M;
