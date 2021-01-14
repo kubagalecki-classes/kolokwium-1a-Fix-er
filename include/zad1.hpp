@@ -4,7 +4,7 @@
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
 class Makaron{
-double ileMaki(unsigned) const=0;
+virtual double ileMaki(unsigned P) const=0;
 static Makaron* gotujMakaron(std::string s);
 };
 // Zad1

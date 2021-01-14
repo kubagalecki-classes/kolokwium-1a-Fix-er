@@ -3,3 +3,7 @@
 #include <functional>
 
 // tutaj funkcja polejSosem
+template <typename T>
+void polejSosem(Tagliatelle t,T n){
+  
+}

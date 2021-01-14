@@ -6,7 +6,7 @@
 
 // tutaj klasa Penne
 class Penne : public Makaron{
-double ileMaki(unsigned P)double{
+double ileMaki(unsigned P)const{
   return P;
 };
 };
