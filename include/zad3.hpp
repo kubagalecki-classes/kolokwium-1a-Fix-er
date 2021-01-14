@@ -4,6 +4,6 @@
 
 // tutaj funkcja polejSosem
 template <typename T>
-void polejSosem(Tagliatelle t,T n){
+std::size_t polejSosem(Tagliatelle t,T n){
 return n.polej(t);
 }
